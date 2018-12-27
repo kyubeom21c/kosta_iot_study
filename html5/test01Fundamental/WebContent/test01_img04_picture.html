@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+	<!-- The description is on the same page as the image -->
+	<img src="w3html.gif" alt="W3Schools.com" width="100" height="132"
+		longdesc="#w3htmlExplained">
+		
+		
+	<!-- Element Available in Chrome 38+ -->
+	<picture>
+		 <source srcset="resized-image.png" media="(min-width: 600px)">
+		 <img src="w3html.gif" alt="MDN">
+	</picture>
+	
+	<picture>
+	  <source
+	    media="(min-width: 650px)"
+	    srcset="kitten-large.png">
+	  <source
+	    media="(min-width: 465px)"
+	    srcset="kitten-medium.png">
+	  <img
+	    src="kitten-small.png"
+	    alt="a cute kitten">
+	</picture>
+
+	<!-- The description is in an external page -->
+	<img src="w3html.gif" alt="W3Schools.com" width="100" height="132"
+		longdesc="w3html.txt">
+
+	<!-- The description is one of several within an external page -->
+	<img src="w3html.gif" alt="W3Schools.com" width="100" height="132"
+		longdesc="http://example.com/desc#item3">
+
+	<!-- The description is included in a data:URI -->
+	<img src="w3html.gif" alt="W3Schools.com" width="100" height="132"
+		longdesc="data:text/html;charset=utf-8;,%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3EDescription%20of%20the%20Logo%3C/title%3E%3C/head%3E%3Cbody%3E%3Cp%3ESome%20description%20goes%20here%3C/body%3E%3C/html%3E">
+
+
+	<div id="w3htmlExplained">
+		<h2>Image w3html.gif</h2>
+		<p>Description of the image...</p>
+	</div>
+
+</body>
+</html>

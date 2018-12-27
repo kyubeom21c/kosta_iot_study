@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+input.testRange {
+	color: #ff0000;
+}
+</style>
+
+
+</head>
+
+<body>
+	<h1>output : opera, chrome 에서 지원</h1>
+
+	<form onsubmit="return false"
+		oninput="o.value = a.valueAsNumber + b.valueAsNumber">
+		<input name="a" type="number" step="any"> + <input name="b"
+			type="number" step="any"> =
+		<output name="o"></output>
+	</form>
+
+	
+	<form onsubmit="return false" onchange="p.value=power.value">
+		<input class="testRange" type="range" min="-100" max="100" value="0"
+			step="10" name="power" list="powers">
+		<datalist id="powers">
+			<option value="0">
+			<option value="-30">
+			<option value="30">
+		</datalist>
+		
+		<output name="p" for="rng">0</output>
+
+	</form>
+	
+
+	<form onsubmit="return false" onchange="r.value=rng.value">
+		<input type="range" name="rng" value="0">
+		<output name="r" for="rng">0</output>
+
+	</form>
+
+</body>
+</html>

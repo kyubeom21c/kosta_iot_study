@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		console.log("ready....");
+		
+		var objs = [{num:1,kor:11,eng:22,math:33},
+			{num:2,kor:44,eng:55,math:66},
+			{num:3,kor:77,eng:88,math:99}];
+		objs.forEach(function(obj){
+			console.log(obj.num+","+obj.kor+","+obj.eng+","+obj.math);
+			var tr = "<tr>";
+			tr += "<td>"+obj.num+"</td>";
+			tr += "<td>"+obj.kor+"</td>";
+			tr += "<td>"+obj.eng+"</td>";
+			tr += "<td>"+obj.math+"</td>";
+			tr += "</tr>";
+			$("#t01").append(tr);
+		});
+		
+		$("#t01").css({
+			background : "red"
+		});
+		$("#t01").find("td").css({
+			background : "white"
+		});
+
+		
+
+		var arr = [ 111, 222, 333 ];
+		arr.forEach(function(data, index, array) {
+			console.log(data+","+index+","+array);
+			$("#t02").append("<tr><td>"+data+"</td></tr>");
+		});
+		$("#t02").css({
+			background : "gold"
+		});
+		$("#t02 td,th").css({
+			background : "white"
+		});
+	});
+</script>
+</head>
+<body>
+	<h1>hello</h1>
+	<table id="t01">
+		<tr>
+			<th>NUM</th>
+			<th>KOR</th>
+			<th>ENG</th>
+			<th>MATH</th>
+		</tr>
+	</table>
+	<table>
+		<thead>
+			<tr>
+				<th>name</th>
+			</tr>
+		</thead>
+		<tbody id="t02">
+			<tr>
+				<td>aaaa</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>1,2,3,4</td>
+			</tr>
+		</tfoot>
+		
+	</table>
+
+
+</body>
+</html>

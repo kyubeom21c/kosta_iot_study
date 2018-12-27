@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebWorker</title>
+
+<style type="text/css">
+p,pre,span {
+	word-wrap: break-word;
+	font-size: 30pt;
+}
+</style>
+
+<script type="text/javascript">
+	onload = testInit;
+	
+	var test03_WorkerListener;
+	var result1;
+	var result2;
+	var su;
+	var startTime;
+
+	// 1. worker 생성 
+	test03_WorkerListener = new Worker("test03_WorkerListener.js");
+
+	function testInit() {
+		su = document.getElementById("su");
+		result1 = document.getElementById("result1");
+		result2 = document.getElementById("result2");
+	}
+	
+	function testInitWorkerListener() {
+		test03_WorkerListener.addEventListener("message", testResultText, false);
+		test03_WorkerListener.addEventListener("error", testErrorAlert, false);
+	}
+	
+	function testResultText( event ){
+		mTime = new Date().getTime() - startTime;
+		result1.innerHTML = event.data;
+	}
+	
+	function testErrorAlert( event ){
+		alert( 'error : ' + event.data );
+	}
+
+	var mTime = 0;
+// 	test03_WorkerListener.onmessage = function(event) {
+// 		mTime = new Date().getTime() - startTime;
+// 		result1.innerHTML = event.data;
+// 	}
+
+// 	test03_WorkerListener.onerror = function(event) {
+// 		alert('error : ' + event.data);
+// 	}
+
+	
+	function sum() {
+		
+		testInitWorkerListener();
+		
+		var nValue = parseInt(su.value);
+		startTime = new Date().getTime();
+		test03_WorkerListener.postMessage(nValue);
+	}
+
+	function onClick_CloseCalculate() {
+		test03_WorkerListener.terminate();
+	}
+	
+	
+	var textResult = "";
+	function cal2(msg) {
+		textResult += msg;
+		return textResult;
+	}
+	function setText() {
+		var x = cal2("<br/>경과 시간:"+mTime);
+		result2.innerHTML = x;
+	}
+</script>
+
+</head>
+
+<body>
+	<h1>WebWorker</h1>
+
+	<p>
+		1 ~ <input type="number" id="su" value="100000000" /> 까지의 합 : 
+		<span id="result1"></span>
+	</p>
+	<p>
+		<button onclick="sum();">더하기</button>
+		<button onclick="setText();">눌러~~~!!</button><span id="result2"></span>
+	</p>
+
+</body>
+
+</html>

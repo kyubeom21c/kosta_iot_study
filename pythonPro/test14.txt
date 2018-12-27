@@ -1,0 +1,11 @@
+python
+raspberryPi
+android
+arduino
+java
+c/c++
+HTML3/CSS
+JavaScript
+Oracle
+Linux
+

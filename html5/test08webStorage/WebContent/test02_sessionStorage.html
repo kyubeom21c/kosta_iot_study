@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		sessionStorage.html5_01 = "html5_01";
+		sessionStorage.html5_02 = "html5_02";
+		sessionStorage.html5_03 = "html5_03";
+		sessionStorage.html5_04 = "html5_04";
+				
+		//해당 key만 삭제
+		document.write("sessionStorage.removeItem(lastname01): " + sessionStorage.removeItem("html5_01")+"<br/>");
+
+		//모든것 삭제		
+// 		document.write("sessionStorage.clear(): " + sessionStorage.clear()+"<br/>");
+
+		document.write("sessionStorage.html5_01(html5_01): " + sessionStorage.getItem("html5_01")+"<br/>");
+		document.write("sessionStorage.html5_01(html5_02): " + sessionStorage.getItem("html5_02")+"<br/>");	
+		document.write("sessionStorage.html5_01(html5_03): " + sessionStorage.getItem("html5_03")+"<br/>");	
+		document.write("sessionStorage.html5_01(html5_04): " + sessionStorage.getItem("html5_04")+"<br/>");
+		
+		</script>
+		
+		<a href="test02_nextPage.html" target="_blank">nextPage</a>
+</body>
+</html>

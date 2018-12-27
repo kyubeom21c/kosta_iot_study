@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebWorker</title>
+
+<style type="text/css">
+p,pre,span {
+	font-size:20pt;
+}
+</style>
+
+<script type="text/javascript">
+	onload = testInit;
+
+	var test01_Worker;
+	var span01;
+	var span02;
+	var span03;
+
+	function testInit() {
+		// 1.  worker object 생성 
+		test01_Worker = new Worker("test01_Worker.js");
+
+		span01 = document.getElementById("span01");
+		span02 = document.getElementById("span02");
+		span03 = document.getElementById("span03");
+
+		// 3.worker onmessage 리턴 결과값 뷰세팅
+		test01_Worker.onmessage = function(event) {
+			// 처리결과는 event.data 로 받는다.
+			span03.innerHTML = event.data;
+		}
+		
+		test01_SumWorker.onerror = function(event) {
+			alert('error : ' + event.data);
+		}
+
+	}
+
+	// 2. worker에 메시지 보내기 
+	function testKeyInputText(msg) {
+		//일반처리
+		span01.innerHTML = "1.일반 함수 처리결과 :" + msg.value;
+		span02.innerHTML = "2.일반 함수 처리결과 :" + msg.value;
+		
+		//웹워커처리
+		test01_Worker.postMessage(msg.value);
+	}
+	
+	
+</script>
+
+</head>
+
+<body>
+<h1>WebWorker</h1>
+	
+	<p><input type="text" placeholder="이름을 입력하세요."  
+		autofocus="autofocus"
+		onkeyup="testKeyInputText(this);"/></p>
+	<p><span id="span01"></span></p>
+	<p><span id="span02"></span></p>
+	<p><span id="span03"></span></p>
+	
+	<p>WebWorker : javascript 병렬처리를 위한 html5 api 이다.</p>
+	<pre>
+	한개의 스레드만 사용하던 javascript연산에 
+	Worker객체를 사용하여 멀티스레드(병렬)처리가 
+	가능하게 되었음.
+	</pre>
+</body>
+
+</html>

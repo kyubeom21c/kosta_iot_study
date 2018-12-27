@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+	background:hsla(280,75%,50%,0.5);
+}
+
+ul {
+	font-size:30pt;
+}
+
+div {
+	width: 200px;
+	height: 50px;
+	border: 1px #000 solid;
+	margin: 20px;
+}
+/* 링크를 선택하면 타겟이 설정된경우 배경색 변경 */
+:target {
+	background-color: #00ffff;
+	font-color:#00ff00;
+	font-size:30pt;
+}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#top">top</a></li>
+		<li><a href="#middle">middle</a></li>
+		<li><a href="#bottom">bottom</a></li>
+	</ul>
+
+
+	<div id="top">top</div>
+	<div id="middle">middle</div>
+	<div id="bottom">bottom</div>
+
+
+
+
+</body>
+</html>

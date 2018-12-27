@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		if (sessionStorage.pagecount) {
+			sessionStorage.pagecount = Number(sessionStorage.pagecount) + 1;
+		} else {
+			sessionStorage.pagecount = 1;
+		}
+		document.write("Visits " + sessionStorage.pagecount
+				+ " time(s) this session.");
+	</script>
+
+	<p>Refresh the page to see the counter increase.</p>
+
+	<p>Close the browser window, and try again, and the counter has
+		been reset.</p>
+	<p>새창을 사용자가 새롭게 열어서 사용시는 세션유지 되지 않는다.</p>
+	<p>단, 아래처럼 타겟(_blank)을 설정하고 이동시는 유지됨.</p>
+	<a href="test02_sessionStorage03.html">페이지 이동</a>
+	<a href="test02_sessionStorage03.html" target="_blank">페이지 타겟 이동은 유지됨.</a>
+</body>
+</html>

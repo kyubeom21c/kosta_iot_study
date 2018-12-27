@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+	content="user-scalable=no, width=device-width, initial-scale=1.0" /> 
+<title>Div Layout</title>
+<link href="content.css" rel="stylesheet" type="text/css">
+<script type="text/javascript"> 
+	window.addEventListener('load', ProgressDisplay, false);
+ 
+	function ProgressDisplay() {
+		progress++;
+		bar = '|';
+		for (count = 0; count < progress; count++)
+			bar = bar + '|';
+		window.status = progress + '% ' + bar;
+		if (progress < 100)
+			setTimeout('ProgressDisplay()', 50);
+		else {
+			window.location = 'intro02.html';
+		}
+	}
+	var progress = 0;
+</script> 
+<script type="text/javascript">
+        // <![CDATA[
+
+        // 모바일 주소창 감추기
+        try {
+               window.addEventListener('load', function(){
+            setTimeout(scrollTo, 0, 0, 1);
+        }, false);
+        } catch(e) {}
+
+        // ]]>
+
+</script>
+</head>
+<body style="margin: 0">
+	<div id="intro">
+		<header><img src="img_1.png"/></header>
+	</div>
+	
+</body>
+</html>

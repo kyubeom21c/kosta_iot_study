@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Div Layout</title>
+<link href="test01_DivLayout.css" rel="stylesheet" type="text/css">
+</head>
+<body style="margin: 0">
+	<div id="logo">
+		<header>Div Layout</header>
+	</div>
+	<div id="page">
+		<div id="menu">
+			<h1>Menu List</h1>
+			<nav>
+				<img width="12" height="25" src="img/star-top.png"
+					alt="HTML5 Navbar">
+				<h2 id="navhdr">NAV</h2>
+				<ul id="navmenu">
+					<li><a href="#the-logo" tabindex="1">An HTML5 Logo</a></li>
+					<li><a href="#the-technology" tabindex="2">The Technology</a></li>
+					<li><a href="#the-movement" tabindex="3">The Movement</a></li>
+					<li><a href="#downloads" tabindex="4">Downloads</a></li>
+					<li><a href="#swag" tabindex="5">Stuff!</a></li>
+					<li><a href="faq.html" tabindex="6">FAQ</a></li>
+					<li><a href="#top" tabindex="7">Back Up Top</a></li>
+				</ul>
+				<img  class="star" src="img/HTML5_Logo_32.png"
+					alt="HTML5 Navbar">
+			</nav>
+
+		</div>
+		<div id="contents">
+			<h2>Page Title</h2>
+			<div id="text">
+				<section>
+					<div id="what-the-tech">
+						<h3>What the tech?</h3>
+						<p>Build a logo that shows off what you use.</p>
+
+						<fieldset class="badge-selector-classes">
+							<legend>HTML Technology Classes</legend>
+							<div id="toggles">
+								<ul>
+									<li><input type="checkbox" id="storage" name="storage"
+										value="1"> <label for="storage">Offline &amp;
+											Storage</label></li>
+									<li><input type="checkbox" id="device" name="device"
+										value="1"> <label for="device">Device Access</label></li>
+									<li><input type="checkbox" id="connectivity"
+										name="connectivity" value="1"> <label
+										for="connectivity">Connectivity / Realtime</label></li>
+									<li><input type="checkbox" id="performance"
+										name="performance" value="1"> <label for="performance">Performance
+											&amp; Integration</label></li>
+									<li><input type="checkbox" id="multimedia"
+										name="multimedia" value="1"> <label for="multimedia">Multimedia</label></li>
+									<li><input type="checkbox" id="semantics" name="semantics"
+										value="1" checked> <label for="semantics">Semantics</label></li>
+									<li><input type="checkbox" id="graphics" name="graphics"
+										value="1"> <label for="graphics">Graphics, 3D
+											&amp; Effects</label></li>
+									<li><input type="checkbox" id="css3" name="css3" value="1"
+										checked> <label for="css3">CSS3 / Styling</label></li>
+								</ul>
+							</div>
+						</fieldset>
+					</div>
+				</section>
+
+			</div>
+		</div>
+		<div id="links">
+			<aside>
+				<h2>Links</h2>
+				<div id="orientation">
+					<div id="orientation-content">
+						<h3>Orientation</h3>
+						<p>Sidebar or footer? Standing up or lying down?</p>
+
+						<fieldset class="badge-selector-classes">
+							<input type="radio" name="badge-orientation"
+								id="badge-horizontal" value="horizontal" checked><label
+								for="badge-horizontal">Horizontal</label> <input type="radio"
+								name="badge-orientation" id="badge-vertical" value="vertical"><label
+								for="badge-vertical">Vertical</label>
+							<fieldset id="badge-selector-horizontal">
+								<div id="horizontal-badge" class="badges"></div>
+							</fieldset>
+							<fieldset id="badge-selector-vertical">
+								<div id="vertical-badge" class="badges"></div>
+							</fieldset>
+						</fieldset>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</div>
+	<div id="copy">
+		<footer>Copyright</footer>
+	</div>
+</body>
+</html>

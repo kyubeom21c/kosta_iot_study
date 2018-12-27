@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+
+</head>
+
+<body>
+	<h1>datalist 는 opera, firefox 에서 지원되며 select 태그와는 다르다.</h1>
+
+	<h3>datalist</h3>
+	<input type="text" name="fruit" list="fruit" 
+		placeholder="과일입력 또는 선택하세요" />
+	<br>
+	<input type="text" name="car" list="car" 
+		placeholder="차종입력 또는 선택하세요"  />
+	<datalist id="fruit">
+		<option value="apple" label="사과">
+		<option value="grape" label="포도">
+		<option value="orange" label="오렌지">
+		<option value="banana" label="바나나">
+	</datalist>
+	<datalist id="car">
+		<option value="volvo" label="volvo">
+		<option value="saab" label="saab">
+		<option value="opel" label="opel">
+		<option value="audi" label="audi">
+	</datalist>
+
+
+	<h3>select</h3>
+	<select name="car2">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="opel">Opel</option>
+		<option value="audi">Audi</option>
+	</select>
+</body>
+</html>

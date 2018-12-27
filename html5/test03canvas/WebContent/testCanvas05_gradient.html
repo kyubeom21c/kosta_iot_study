@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+	<canvas id="myCanvas" width="200" height="100"
+		style="border: 1px solid #c3c3c3;"></canvas>
+
+
+	<script type="text/javascript">
+		var c = document.getElementById("myCanvas");
+		var cxt = c.getContext("2d");
+		var grd = cxt.createLinearGradient(0, 0, 175, 50);
+		grd.addColorStop(0, "#FF0000");
+		grd.addColorStop(0.2, "#FFFF00");
+		grd.addColorStop(0.4, "#0000FF");
+		grd.addColorStop(0.6, "#FFFFFF");
+		grd.addColorStop(0.8, "#00FFFF");
+		grd.addColorStop(1, "#00FF00");
+		cxt.fillStyle = grd;
+		cxt.fillRect(0, 0, 175, 50);
+	</script>
+
+</body>
+</html>

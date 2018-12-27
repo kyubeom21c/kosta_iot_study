@@ -1,0 +1,15 @@
+Google Maps API는 Android, iOS, 웹 브라우저 및 HTTP 웹 서비스를 통해 이용할 수 있습니다.
+로그인 >>  키가져오기 >> 임의의 프로젝트생성 >> API-KEY 생성 후 복사
+
+ex)  AIzaSyAxSbzb5kJFvOEu7WqddNnUIHezpDCIil0
+
+https://developers.google.com/maps
+
+https://developers.google.com/maps/documentation/javascript/
+
+https://developers.google.com/maps/documentation/javascript/examples/
+
+
+
+
+http://maps.google.com

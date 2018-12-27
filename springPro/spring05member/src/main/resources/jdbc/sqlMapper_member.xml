@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test.com.member">
+	<select id="selectAll"
+		resultType="test.com.member.model.MemberVO">
+		select * from member order by num desc
+	</select>
+
+	<select id="selectOne"
+		resultType="test.com.member.model.MemberVO">
+		select * from member where
+		num=#{num}
+	</select>
+
+	<select id="search" resultType="test.com.member.model.MemberVO">
+		select * from member
+		where
+		<if test="searchKey == 'name'">
+			name like #{searchWord}
+		</if>
+		<if test="searchKey == 'tel'">
+			tel like #{searchWord}
+		</if>
+	</select>
+
+	<insert id="insert"
+		parameterType="test.com.member.model.MemberVO">
+		insert into member(num,id,pw,name,tel)
+		values(seq_member_num.nextval,#{id},#{pw},#{name},#{tel})
+	</insert>
+
+	<update id="update"
+		parameterType="test.com.member.model.MemberVO">
+		update member set
+		id=#{id},pw=#{pw},name=#{name},tel=#{tel}
+		where num=#{num}
+	</update>
+
+	<delete id="delete"
+		parameterType="test.com.member.model.MemberVO">
+		delete from member
+		where num=#{num}
+	</delete>
+</mapper>

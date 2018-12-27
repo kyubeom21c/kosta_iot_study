@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+<link
+	href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css"
+	rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript"
+	src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript">
+
+	var infowindow = new google.maps.InfoWindow();
+	function drowMap(latitude, longitude) {
+// 		printTrace("Load Google Map !!");
+
+		var initialLocation = new google.maps.LatLng(latitude, longitude);
+		var map = new google.maps.Map(
+				document.getElementById("map_canvas"), {
+			zoom : 18,
+			mapTypeId : google.maps.MapTypeId.ROADMAP
+		});
+		map.setCenter(initialLocation);
+		infowindow.setContent("I'm Here !!"+"위도:"+latitude+", 경도:"+ longitude);
+		infowindow.setPosition(initialLocation);
+		infowindow.open(map);
+	}
+
+	function getDebugArea() {
+		return document.getElementById("debugArea");
+	}
+	function printTrace(msg) {
+		var token = "";
+		if (getDebugArea().innerHTML != "")
+			token = "<br /><br />";
+		getDebugArea().innerHTML = getDebugArea().innerHTML + token + msg;
+	}
+	function initLocation() {
+		var myGps = getLocation();
+		if (myGps == null)
+			return false;
+		myLocation(myGps);
+	}
+	function getLocation() {
+// 		printTrace("get location !!");
+		if (navigator.geolocation) {
+// 			printTrace("Check complite !!");
+			return navigator.geolocation;
+		}
+
+// 		printTrace("이 브라우져는 위치정보를 지원하지 않는 브라우져입니다.");
+		return null;
+	}
+	function myLocation(myGps) {
+		myGps.getCurrentPosition(function(position) {
+
+			position.coords.timestamp; // 정보를 얻은 시간 (ms)
+			position.coords.latitude; // 위도
+			position.coords.longitude; // 경도
+			position.coords.accuracy; // 위도, 경도 오차 (m)
+			position.coords.altitude; // 고도
+			position.coords.altitudeAccuracy; // 고도 오차 (m)
+			position.coords.speed; // 진행속도 (m/s)
+			position.coords.heading; // 정북의 시계방향 각도
+			printTrace(position.coords.latitude + ", "
+					+ position.coords.longitude);
+			alert(position.coords.latitude+","+position.coords.longitude)
+			drowMap(position.coords.latitude, position.coords.longitude);
+// 			drowMap(36.420428,127.407304);
+		});
+	}
+	window.onload = initLocation;
+
+</script>
+</head>
+<body>
+
+	<div id="map_canvas" style="width:350px; height:350px"></div>
+				<div id="debugArea"></div>
+</body>
+</html>

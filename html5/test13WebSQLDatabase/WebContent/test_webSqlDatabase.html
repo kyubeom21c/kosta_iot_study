@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+	//1. 데이터베이스 열기
+	var db = openDatabase("EmployeeDB", " ", "Employee  Database", 1024 * 1024);
+
+	//2. 테이블 생성
+	db.transaction(function(tx) {
+		// if not exists 구문을 이용, 테이블이 없을때에만 테이블 생성
+		// employee_id는 자동으로 인덱싱되는 키본키
+		tx.executeSql("create table if not exists Employee ("
+				+ " employee_id integer primary key autoincrement,"
+				+ " name text, age integer)");
+	});
+
+	//3. data load
+	function dataLoad() {
+		// SELECT문 실행
+		db.transaction(function(tx) {
+			tx.executeSql("select * from Employee", [], function(tx, rs) {
+				var list = document.getElementById("list");
+				list.innerHTML = "";
+				var rows = rs.rows;
+
+				// Employee 테이블에 저장된 모든 값을 표시
+				for ( var i = 0; i < rows.length; i++) {
+					var row = rows.item(i);
+					// Option(key, value) 
+					var option = new Option(row.employee_id + "\t" + row.name
+							+ "\t (" + row.age + "세)", row.employee_id);
+					list.options[list.options.length] = option;
+				}
+			});
+		});
+	}//end dataLoad()
+
+	//4. data insert
+	function dataInsert() {
+		var name = document.getElementById("name").value;
+		var age = document.getElementById("age").value;
+		// Employee 테이블에 값 저장
+		db.transaction(function(tx) {
+			tx.executeSql("insert into Employee (name, age) values (?, ?)", [
+					name, age ], function(tx, rs) {
+				alert("사원ID[" + rs.insertId + "] 레코드가 저장되었습니다.");
+				dataLoad();
+			});
+		});
+	}//end dataInsert()
+
+	//5. data update
+	function dataUpdate() {
+		var name = document.getElementById("name").value;
+		var age = document.getElementById("age").value;
+		var list = document.getElementById("list");
+
+		if (list.selectedIndex < 0) {
+			alert("수정항목을 선택 후 수정하세요.");
+			return;
+		}
+		if (name.length == 0) {
+			alert("수정할 이름을 입력하세요");
+			return;
+		}
+		if (age.length == 0) {
+			alert("수정할 나이를 입력하세요");
+			return;
+		}
+		// 리스트에서 선택된 값을 불러오면 employee_id 를 불러올 수 있음
+		var selected = list.options[list.selectedIndex].value;
+
+		// 선택한 항목을 update 문으로 수정
+		db.transaction(function(tx) {
+			tx.executeSql(
+					"update Employee set name=?,age=? where employee_id = ?", [
+							name, age, selected ], function() {
+						dataLoad();
+					});
+		});
+	}//end dataUpdate()
+
+	//6. data delete
+	function dataDelete() {
+		var list = document.getElementById("list");
+
+		if (list.selectedIndex < 0) {
+			alert("삭제항목을 선택 후 삭제하세요.");
+			return;
+		}
+
+		// 리스트에서 선택된 값을 불러오면 employee_id 를 불러올 수 있음
+		var selected = list.options[list.selectedIndex].value;
+
+		// 선택한 항목을 DELETE 문으로 삭제
+		db.transaction(function(tx) {
+			tx.executeSql("delete from Employee where employee_id = ?",
+					[ selected ], function() {
+						dataLoad();
+					});
+		});
+	}//end dataDelete()
+
+	//7. data delete all
+	function dataDeleteAll() {
+		db.transaction(function(tx) {
+			tx.executeSql("delete from Employee", [], function() {
+				dataLoad();
+			});
+		});
+	}//end dataDeleteAll()
+</script>
+
+</head>
+
+<body onload="dataLoad()">
+
+	<h1>사원 관리 화면</h1>
+
+	이름:
+	<input id="name" type="text"> 나이:
+	<input id="age" type="number">
+
+	<button onclick="dataInsert()">추가</button>
+
+	<hr>
+
+	<select id="list" size=5 style="width: 300px"></select>
+
+	<button onclick="dataDelete()">삭제</button>
+	<button onclick="dataDeleteAll()">모두삭제</button>
+	<button onclick="dataUpdate()">수정</button>
+
+</body>
+
+</html>

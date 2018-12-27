@@ -1,0 +1,461 @@
+Tchapter10_bs_bingo
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC1107D00000000000C9AB0
+t1287721085
+s826032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
+c000000004CC110730000000000000A8C
+t1287721075
+s2700
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC11CDC0000000000245580
+t1287724252
+s2381184
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC11CB30000000000000202
+t1287724211
+s514
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC10EB60000000000010AAC
+t1287720630
+s68268
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC10EEE00000000002C9710
+t1287720686
+s2922256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC110680000000000094AF0
+t1287721064
+s609008
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004CC11AE700000000000019AC
+t1287723751
+s6572
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/Contacts.h
+c000000004CC76BFF0000000000000ACE
+t1288137727
+s2766
+i<Foundation/Foundation.h>
+i<AddressBook/ABAddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/DebugConsole.h
+c000000004CC72FD60000000000000170
+t1288122326
+s368
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/JSON.h
+c000000004CC72FD600000000000008F9
+t1288122326
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/NSObject+SBJSON.h
+c000000004CC72FD60000000000000A01
+t1288122326
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/NSString+SBJSON.h
+c000000004CC72FD60000000000000916
+t1288122326
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJSON.h
+c000000004CC72FD60000000000000AED
+t1288122326
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJsonBase.h
+c000000004CC72FD60000000000000B82
+t1288122326
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJsonParser.h
+c000000004CC72FD60000000000000C0B
+t1288122326
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJsonWriter.h
+c000000004CC72FD60000000000001140
+t1288122326
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/Location.h
+c000000004CC76BFF00000000000005AB
+t1288137727
+s1451
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
+c000000004CC72FD600000000000002ED
+t1288122326
+s749
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
+c000000004CC76BFF00000000000002F6
+t1288137727
+s758
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/PhonegapDelegate.h
+c000000004CC76C65000000000000082E
+t1288137829
+s2094
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UINavigationController.h>
+i"JSON/JSON.h"
+i"Location.h"
+i"Sound.h"
+i"Contacts.h"
+i"DebugConsole.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/Sound.h
+c000000004CC76BFF0000000000000704
+t1288137727
+s1796
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i<AVFoundation/AVFoundation.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/VERSION
+c000000004CC76BFF0000000000000005
+t1288137727
+s5
+
+N/Users/jefffulton/Documents/PhoneGapLib/build/Debug/libPhoneGapLib.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.h
+c000000004CF721C4000000000000011D
+t1291264452
+s285
+i<UIKit/UIKit.h>
+i"PhoneGapDelegate.h"
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m
+c000000004CF721C40000000000000816
+t1291264452
+s2070
+i"chapter10_bs_bingoAppDelegate.h"
+i"PhoneGapViewController.h"
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Default.png
+c000000004CF721C40000000000000BAE
+t1291264452
+s2990
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGap.plist
+c000000004CF721C4000000000000027E
+t1291264452
+s638
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGapBuildSettings.xcconfig
+c000000004CF721C4000000000000008A
+t1291264452
+s138
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app.dSYM
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/Default.png
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/Info.plist
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/PhoneGap.plist
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/PhoneGapBuildSettings.xcconfig
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/PkgInfo
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/ResourceRules.plist
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/VERSION
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/chapter10_bs_bingo
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/icon.png
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/www
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/chapter10_bs_bingo
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/chapter10_bs_bingo.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/chapter10_bs_bingoAppDelegate.o
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/chapter10_bs_bingo
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/chapter10_bs_bingo.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/chapter10_bs_bingoAppDelegate.o
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo_Prefix.pch
+c000000004CF721C400000000000000CD
+t1291264452
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/icon.png
+c000000004CF721C40000000000000C36
+t1291264452
+s3126
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m
+c000000004CF721C40000000000000189
+t1291264452
+s393
+i<UIKit/UIKit.h>
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www
+c000000004CF721C40000000000000066
+t1291264452
+s102
+
+N/var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-blwunerzfoddfweadwhiadjcnqye/chapter10_bs_bingo_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-dsjzojqgsgfonuezmedwpmugjqfe/chapter10_bs_bingo_Prefix.pch.gch
+t2
+s0
+
+Nchapter10_bs_bingo-Info.plist
+c000000004CF721C400000000000005C2
+t1291264452
+s1474
+
+CCompileC build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/chapter10_bs_bingoAppDelegate.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/main.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/chapter10_bs_bingoAppDelegate.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/main.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCopyPNGFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/Default.png" Default.png
+r0
+
+CCopyPNGFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/icon.png" icon.png
+r0
+
+CCopyPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/PhoneGap.plist" PhoneGap.plist
+r0
+
+CCpResource build/Debug-iphoneos/chapter10_bs_bingo.app/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+r0
+
+CCpResource build/Debug-iphoneos/chapter10_bs_bingo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/chapter10_bs_bingo.app/VERSION /Users/jefffulton/Documents/PhoneGapLib/VERSION
+r0
+
+CCpResource build/Debug-iphoneos/chapter10_bs_bingo.app/www www
+r0
+
+CCreateUniversalBinary "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/chapter10_bs_bingo" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app.dSYM" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/chapter10_bs_bingo"
+r0
+
+CLd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/chapter10_bs_bingo" normal armv6
+r0
+
+CLd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv6/chapter10_bs_bingo" normal armv6
+r0
+
+CLd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Objects-normal/armv7/chapter10_bs_bingo" normal armv7
+r0
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh"
+r0
+
+CPhaseScriptExecution "Touch www folder" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphoneos/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh"
+r0
+
+CProcessInfoPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app/Info.plist" chapter10_bs_bingo-Info.plist
+r0
+
+CProcessPCH /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-blwunerzfoddfweadwhiadjcnqye/chapter10_bs_bingo_Prefix.pch.gch chapter10_bs_bingo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-dsjzojqgsgfonuezmedwpmugjqfe/chapter10_bs_bingo_Prefix.pch.gch chapter10_bs_bingo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphoneos/chapter10_bs_bingo.app"
+r0
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function checkStorageSupport() {
+
+		//sessionStorage 
+		if (window.sessionStorage) {
+			alert('This browser supports sessionStorage');
+		} else {
+			alert('This browser does NOT support sessionStorage');
+		}
+
+		//localStorage 
+		if (window.localStorage) {
+			alert('This browser supports localStorage');
+		} else {
+			alert('This browser does NOT support localStorage');
+		}
+	}
+</script>
+</head>
+<body onload="checkStorageSupport()">
+	onload="checkStorageSupport()"
+</body>
+</html>

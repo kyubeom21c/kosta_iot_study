@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function drawDiagonal() {
+	// Get the canvas element and its drawing context 
+	var canvas = document.getElementById('myCanvas');
+	var context = canvas.getContext('2d');
+
+	// Create a path in absolute coordinates 
+	context.beginPath();
+	context.moveTo(70, 140);
+	context.lineTo(140, 70);
+	context.lineWidth = 14; 
+
+	// Stroke the line onto the canvas 
+	context.stroke();
+	
+	// Draw title text on our canvas 
+	context.save(); 
+	
+	// Set some shadow on our text, black with 20% alpha 
+	context.shadowColor = 'rgba(0, 0, 0, 0.2)'; 
+	 
+	// Move the shadow to the right 15 pixels, up 10 
+	context.shadowOffsetX = 15; 
+	context.shadowOffsetY = -10; 
+	 
+	// Blur the shadow slightly 
+	context.shadowBlur = 2; 
+	 
+	// The font will be 60 pixel, Impact face 
+	context.font = "60px impact"; 
+	 
+	// Use a brown fill for our text 
+	context.fillStyle = '#996600'; 
+	// Text can be aligned when displayed 
+	context.textAlign = 'center'; 
+	 
+	// Draw the text in the middle of the canvas with a max 
+	//  width set to center properly 
+	context.fillText('Happy Trails!', 200, 60, 400); 
+	context.restore();
+	
+	
+	
+}
+
+window.addEventListener("load", drawDiagonal, true);
+
+</script>
+
+</head>
+<body>
+
+	<canvas id="myCanvas" width="400" height="200"
+		style="border: 1px solid #c3c3c3;"></canvas>
+
+
+
+
+</body>
+</html>

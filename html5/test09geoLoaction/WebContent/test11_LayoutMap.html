@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Div Layout</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<link href="test11_LayoutMap.css" rel="stylesheet" type="text/css">
+
+<link
+	href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css"
+	rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript"
+	src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript">
+
+	var infowindow = new google.maps.InfoWindow();
+	function drowMap(latitude, longitude) {
+		var initialLocation = new google.maps.LatLng(latitude, longitude);
+		var map = new google.maps.Map(
+				document.getElementById("map_canvas"), {
+			zoom : 18,
+			mapTypeId : google.maps.MapTypeId.ROADMAP
+		});
+		map.setCenter(initialLocation);
+		infowindow.setContent("위도:"+latitude+",<br/> 경도:"+ longitude);
+		infowindow.setPosition(initialLocation);
+		infowindow.open(map);
+	}
+
+	function initLocation() {
+		var myGps = getLocation();
+		if (myGps == null)
+			return false;
+		myLocation(myGps);
+	}
+	function getLocation() {
+		if (navigator.geolocation) {
+			return navigator.geolocation;
+		}
+		return null;
+	}
+	function myLocation(myGps) {
+		myGps.getCurrentPosition(function(position) {
+			drowMap(position.coords.latitude, position.coords.longitude);
+		});
+	}
+	window.onload = initLocation;
+
+</script>
+</head>
+<body style="margin: 0">
+	<div id="logo">
+		<header>Div Layout</header>
+	</div>
+	<div id="page">
+		<div id="menu">
+			<h1>Menu List</h1>
+			<nav>
+				<img width="12" height="25" src="img/star-top.png"
+					alt="HTML5 Navbar">
+				<h2 id="navhdr">NAV</h2>
+				<ul id="navmenu">
+					<li><a href="#the-logo" tabindex="1">An HTML5 Logo</a></li>
+					<li><a href="#the-technology" tabindex="2">The Technology</a></li>
+					<li><a href="#the-movement" tabindex="3">The Movement</a></li>
+					<li><a href="#downloads" tabindex="4">Downloads</a></li>
+					<li><a href="#swag" tabindex="5">Stuff!</a></li>
+					<li><a href="faq.html" tabindex="6">FAQ</a></li>
+					<li><a href="#top" tabindex="7">Back Up Top</a></li>
+				</ul>
+				<img  class="star" src="img/HTML5_Logo_32.png"
+					alt="HTML5 Navbar">
+			</nav>
+
+		</div>
+		<div id="contents">
+			<h2>Page Title</h2>
+			<div id="text">
+				<section>
+					<div id="map_canvas" style="width:350px; height:350px"></div>
+				<div id="debugArea"></div>
+				</section>
+
+			</div>
+		</div>
+		<div id="links">
+			<aside>
+				<h2>Links</h2>
+				<div id="orientation">
+					<div id="orientation-content">
+						<h3>Orientation</h3>
+						<p>Sidebar or footer? Standing up or lying down?</p>
+
+						<fieldset class="badge-selector-classes">
+							<input type="radio" name="badge-orientation"
+								id="badge-horizontal" value="horizontal" checked><label
+								for="badge-horizontal">Horizontal</label> <input type="radio"
+								name="badge-orientation" id="badge-vertical" value="vertical"><label
+								for="badge-vertical">Vertical</label>
+							<fieldset id="badge-selector-horizontal">
+								<div id="horizontal-badge" class="badges"></div>
+							</fieldset>
+							<fieldset id="badge-selector-vertical">
+								<div id="vertical-badge" class="badges"></div>
+							</fieldset>
+						</fieldset>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</div>
+	<div id="copy">
+		<footer>Copyright</footer>
+	</div>
+</body>
+</html>

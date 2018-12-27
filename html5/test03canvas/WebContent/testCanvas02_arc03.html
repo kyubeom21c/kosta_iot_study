@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Canvas 2D Context</title>
+<script type="text/javascript">
+	var canvas;
+	var context;
+	function arcFill(x,y,radius) {
+		r = Math.floor(Math.random()*255);
+		g = Math.floor(Math.random()*255);
+		b = Math.floor(Math.random()*255);
+
+		console.log(r+":"+g+":"+b);
+		canvas = document.getElementById('idCanvas')
+		context = canvas.getContext('2d');
+		context.beginPath();
+		context.fillStyle = 'rgba(' + r + ', ' + g + ', ' + b + ', 0.8)';
+		context.arc(x, y, radius, 0, Math.PI * 2, false);
+		context.fill();
+	}
+	function removeArc() {
+		context.clearRect(0, 0, canvas.width, canvas.height);
+	    // 컨텍스트 리셋
+	    context.beginPath();
+	}
+
+</script>
+</head>
+<body onload = "arcFill(200, 200,  50)">
+	<button onclick="arcFill(200, 200,  50)">click</button><br>
+	<button onclick="removeArc()">click</button><br>
+	<canvas id="idCanvas" width="400" height="400"></canvas>
+
+</body>
+</html>
+
+

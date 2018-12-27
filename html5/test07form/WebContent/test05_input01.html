@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function idCheck(){
+		console.log("idCheck()....");
+	}
+</script>
+
+</head>
+<body>
+<!-- 	<form action="test05_input01.jsp" method="post" enctype="multipart/form-data"> -->
+	<form action="test05_input01.jsp" method="post" >
+		hidden:<input type="hidden" name="hidden" value="aaaaa"><br/>
+		text:<input type="text" name="text" value="bbbbb">
+		<input type="button"  value="중복체크" onclick="idCheck()"><br/>
+		
+		search:<input type="search" name="search" value="cccc"><br/>
+		tel:<input type="tel" name="tel" value="010-9999-9999"><br/>
+		url:<input type="url" name="url" value="http://dddd.com"><br/>
+		email:<input type="email" name="email" value="eee@ee.com"><br/>
+		
+		password:<input type="password" name="password" value="ff1234"><br/>	
+		number:<input type="number" min="0" max="10" name="number" value="10"><br/>
+		file:<input type="file" name="filename"><br/>
+		
+		
+		<input type="submit" value="OK"><br/>
+	</form>
+</body>
+</html>
+
+
+

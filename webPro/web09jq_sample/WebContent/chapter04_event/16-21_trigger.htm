@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-1.7.js"></script>
+    <script>
+        $(document).ready(function () {
+            // �̺�Ʈ�� �����մϴ�.
+            $('h1').click(function (event, data1, data2) {
+                alert(data1 + ' : ' + data2);
+            });
+
+            // �̺�Ʈ�� ������ �߻���ŵ�ϴ�.
+            $('h1').eq(1).trigger('click', [273, 52]);
+        });
+    </script>
+</head>
+<body>
+    <h1>TRIGGER</h1>
+    <h1>TRIGGER</h1>
+</body>
+</html>

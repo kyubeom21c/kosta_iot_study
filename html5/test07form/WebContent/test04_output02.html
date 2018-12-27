@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function sum() {
+		var su1 = document.getElementById("a2").value;
+		var su2 = document.getElementById("b2").value;
+		console.log(su1+"+"+su2+"="+(Number(su1)+Number(su2)));
+		document.getElementById("o2").value = Number(su1) + Number(su2);
+	}
+</script>
+
+
+</head>
+
+<body>
+	<h1>output : opera, chrome 에서 지원</h1>
+	<form onsubmit="return false"
+		oninput="sum()">
+		<input id="a2" type="number" step="any"> + <input id="b2"
+			type="number" step="any"> =
+		<output id="o2"></output>
+	</form>
+
+</body>
+</html>

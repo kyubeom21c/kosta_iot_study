@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	console.log("hello");
+	
+	//1.함수 호출후 반환된 함수를 호출하여
+	// 카운딩하는 프로그램을 완성하시오.
+	// 카운딩수치는 콘솔과 바디에 보이도록할것.
+	// 버튼을 이용하여 카운팅할것.
+	function test(){
+		console.log("test()....");
+		var count = 0;
+		var pfn = function(){
+			count++;
+			console.log("pfn()...."+count);
+			return count;
+		};
+		var mfn = function(){
+			count--;
+			console.log("mfn()...."+count);
+			return count;
+		};
+		return [pfn,mfn];
+	}
+	
+	var fns = test();
+	
+	window.onload = function(){
+		var h01 = document.getElementById("h01");
+		var plus = document.getElementById("plus");
+		var minus = document.getElementById("minus");
+		h01.innerText = 0;
+		
+		plus.onclick = function(){
+			h01.innerText = fns[0]();
+		};
+		minus.onclick = function(){
+			h01.innerText = fns[1]();
+		};
+	};
+	
+	
+	
+	
+	//2. 다한사람은 마이너스 카운팅 버튼추가및 수치감소시키기
+	
+</script>
+</head>
+<body>
+	<h1 id="h01">hello</h1>
+	<button id="plus">plus</button>
+	<button id="minus">minus</button>
+</body>
+</html>

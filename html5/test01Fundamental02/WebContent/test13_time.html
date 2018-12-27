@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+		<p>
+			현재 페이지(document) 작성시간은 
+			<time>19:00</time>
+			입니다.
+		</p>
+	
+	<article>
+		<p>
+			article 작성 일자는 
+			<time datetime="1973-07-08">1973-07-08</time>
+			입니다.
+		</p>
+	</article>
+
+	<article>
+		<h1>pubdate</h1>
+		<p>일자와시간연속작성시 T 를 넣는다.+09:00는 표준시간+9시간 즉 한국시간이다.</p>
+		<p>pubdate 속성은 time값을 지정한 것으로 인식</p>
+
+		<footer>
+			<time pubdate="1973-07-08T19:00:00+09:00"></time>
+		</footer>
+	</article>
+
+	<article>
+		<h1>datetime</h1>
+
+		<p>
+			<time datetime="1973-07-08T19:00:00+09:00">
+				1973년 07월 08일 19시 00분 00초</time>
+		</p>
+
+		<p>
+			<time>1973-07-08</time>
+			: 텍스트값을 브라우저가 인식
+		</p>
+		<p>
+			<time datetime="1973-07-08">1973년 07월 08일</time>
+			: datetime속성값을 브라우져가 인식하고 텍스트형태로 별도 작성도 가능.
+		</p>
+	</article>
+</body>
+</html>

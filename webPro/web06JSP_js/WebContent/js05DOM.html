@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	console.log("hello");
+	
+	var arr = ["aaa","bbb","ccc","ddd"];
+	var objs = [{name:"kim",age:33},{name:"kim2",age:22}];
+	window.onload = function(){
+		var uList = document.getElementById("uList");
+		var tList = document.getElementById("tList");
+		var btn = document.getElementById("btn");
+		var btn2 = document.getElementById("btn2");
+		
+		function displayUL(){
+			uList.innerHTML = "";
+			for ( var i in arr) {
+				var node = document.createElement("LI");                 // Create a <li> node
+				var textnode = document.createTextNode(arr[i]);         // Create a text node
+				node.appendChild(textnode);                              // Append the text to <li>
+				uList.appendChild(node);
+			}
+		}
+		function displayTable(){
+			tList.innerHTML = "";
+			for ( var i in objs) {
+				var tr = document.createElement("TR");                 // Create a <li> node
+				var td1 = document.createElement("TD");                 // Create a <li> node
+				var td2 = document.createElement("TD");                 // Create a <li> node
+				var text1 = document.createTextNode(objs[i].name);         // Create a text node
+				var text2 = document.createTextNode(objs[i].age);         // Create a text node
+				td1.appendChild(text1);                              // Append the text to <li>
+				td2.appendChild(text2);                              // Append the text to <li>
+				tr.appendChild(td1);                              // Append the text to <li>
+				tr.appendChild(td2);                              // Append the text to <li>
+				tList.appendChild(tr);
+			}
+		}
+		
+		displayUL();
+		displayTable();
+		
+		btn.onclick = function(){
+			console.log("click...");
+			displayUL();
+		};
+		btn2.onclick = function(){
+			console.log("click2...");
+			displayTable();
+		};
+	};
+</script>
+</head>
+<body>
+	<h1 id="h01">hello</h1>
+	<button id="btn">click</button>
+	<button id="btn2">click2</button>
+	
+	<ul id="uList">
+		<li>data</li>
+		<li>data</li>
+		<li>data</li>
+		<li>data</li>
+		<li>data</li>
+	</ul>
+	<table id="tList" border="1">
+		<tr><td>data1</td><td>data2</td></tr>
+		<tr>
+			<td>data1</td><td>data2</td>
+		</tr>
+	</table>
+	
+</body>
+</html>

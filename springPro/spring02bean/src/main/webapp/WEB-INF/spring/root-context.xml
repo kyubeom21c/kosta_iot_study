@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+<!-- 	<bean id="tb" class="test.com.bean.TestBean"></bean>	 -->
+	<bean id="tb" class="test.com.bean.TestBean">
+		<constructor-arg>
+			<value>yangssem</value>
+		</constructor-arg>
+	</bean>	
+	
+<!-- 	<bean id="tb4" class="test.com.bean.TestBean4"> -->
+<!-- 		<property name="id" value="admin"></property> -->
+<!-- 		<property name="pw" value="hi1246"></property> -->
+<!-- 	</bean>	 -->
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+</beans>

@@ -1,0 +1,48 @@
+1.project 생성
+2.패키지 생성
+	2-1 모델package생성
+	2-2 vo생성
+	2-3 인터페이스 dao생성
+	2-4 dao 상속된 class daoimpl생성 
+	2-5 daoimpl 에서 모든 메소드 sysout
+3.메인클래스에서 테스팅
+	3-1 입력
+	3-2 수정
+	3-3 삭제
+	3-4 조건검색
+	3-5 모두검색
+	 
+4.WebContent 작성
+	4-0 index.jsp
+	4-1 insert.jsp
+	4-2 selectAll.jsp
+		4-2-1 jstl taglib 추가 및 선언 forEach 및 EL 처리
+	4-3 update.jsp
+		4-3-1 EL 처리
+	
+5.서블릿 Servlet생성 
+	5-0 controller package 생성 >>Servlet생성 
+	5-1 서블릿 url맵핑 >>index.do,
+					insert.do,insertOK.do,
+					update.do,updateOK.do,
+					deleteOK.do,
+					selectAll.do
+					톰켓서버 실행
+	5-2 doGet 분기  앞서 코딩한 [3.메인클래스에서 테스팅] 참조
+	5-3  페이지 포워딩
+	
+	
+6.db 연동
+	6-1 db 사용자,권한 설정(connect,resource)
+	6-2 table create [2-2 vo생성]참조
+	6-3 WEB-ING>lib> ojdbc6.jar 넣기
+	6-4 daoimpl 생성자에서  driver
+	6-5 Connecton
+	6-6 PreparedStatement >> sql
+	6-7 result(insert,update,delete), ResultSet(select)
+	
+	
+	
+	
+	
+	

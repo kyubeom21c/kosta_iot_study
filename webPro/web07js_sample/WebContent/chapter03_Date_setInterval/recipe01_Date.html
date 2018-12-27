@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#date{
+	background-color: #ff0;
+	width: 200px;
+	text-align: center;
+	border: 2px inset #f00;
+}
+.bbb{
+	background-color: #0ff;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	border: 2px inset #f00;
+}
+p{
+	background-color: #f00;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	border: 2px inset #f00;
+}
+</style>
+<script type="text/javascript">
+	window.onload = function() {
+		var dtElem = document.getElementById("date");
+		var dt = new Date();
+		dtElem.innerHTML = "<p class='bbb'>" + dt + "</p>";
+		
+		
+		
+	}
+</script>
+</head>
+<body>
+	<div id="date"></div>
+	<p>ddddddddd</p>
+	<p>ddddddddd</p>
+	<p>ddddddddd</p>
+	<p>ddddddddd</p>
+</body>
+</html>

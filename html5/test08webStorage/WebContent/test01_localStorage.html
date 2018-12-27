@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		localStorage.lastname01 = "yangssem01";
+		localStorage.lastname02 = "yangssem02";
+		localStorage.lastname03 = "yangssem03";
+		localStorage.lastname04 = "yangssem04";
+		localStorage.setItem("lastname05","yangssem05");
+				
+		//해당 key만 삭제
+// 		document.write("localStorage.removeItem(lastname01): " + localStorage.removeItem("lastname01")+"<br/>");
+
+		//모든것 삭제		
+// 		document.write("localStorage.clear(): " + localStorage.clear()+"<br/>");
+
+		document.write("localStorage.getItem(lastname01): " + localStorage.getItem("lastname01")+"<br/>");
+		document.write("localStorage.getItem(lastname02): " + localStorage.getItem("lastname02")+"<br/>");	
+		document.write("localStorage.getItem(lastname03): " + localStorage.getItem("lastname03")+"<br/>");	
+		document.write("localStorage.getItem(lastname04): " + localStorage.getItem("lastname04")+"<br/>");
+		document.write("localStorage.getItem(lastname05): " + localStorage.getItem("lastname05")+"<br/>");
+	</script>
+</body>
+</html>

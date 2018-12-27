@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	window.addEventListener("load", drawDiagonal, true);
+	function drawDiagonal() {
+		// Get the canvas element and its drawing context 
+		var canvas = document.getElementById('diagonal');
+		var context = canvas.getContext('2d');
+
+		var img = new Image();
+		img.src = "g2.png";
+		img.onload = function() {
+			context.drawImage(img, 0, 0);
+		}
+	}
+</script>
+</head>
+<body>
+	<canvas id="diagonal" style="border: 1px solid;" width="200"
+		height="400"></canvas>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#myCanvas {
+	border-radius: 30px;
+	border:1px solid;
+}
+</style>
+
+</head>
+<body>
+	<canvas id="myCanvas" width="400" height="200"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById('myCanvas');
+		var ctx = canvas.getContext('2d');
+		ctx.fillStyle = '#FF0000';
+		ctx.fillRect(50, 0, 80, 150);
+	</script>
+
+</body>
+</html>

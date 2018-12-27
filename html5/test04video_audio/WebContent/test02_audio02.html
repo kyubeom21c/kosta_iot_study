@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>Audio cue</title>
+
+<script type="text/javascript">
+	function toggleSound() {
+		var music = document.getElementById("clickSound");
+		var toggle = document.getElementById("toggle");
+
+		if (music.paused) {
+			music.play();
+			toggle.innerHTML = "Pause";
+		} else {
+			music.pause();
+			toggle.innerHTML = "Play";
+		}
+	}
+</script>
+
+<body>
+	<audio id="clickSound">
+		<source src="HelloWorld.ogg"> 
+    	<source src="Bigbang_Tonight.mp3"> 
+	</audio>
+버튼을 누르면 음악이나와요^^<br/>
+	<button id="toggle" onclick="toggleSound()">Play</button>
+	
+</body>
+</html>

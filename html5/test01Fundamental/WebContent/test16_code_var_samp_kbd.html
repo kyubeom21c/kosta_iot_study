@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function nextPage(msg) {
+		location.href = msg;
+		
+	}
+	
+</script>
+
+</head>
+<body>
+	<pre>
+1) code요소는 프로그램의 소스코드의 일부분을 마크업
+2) var요소는 수식이나 프로그램의 변수를 마크업
+3) samp요소는 커멘드창 등의 출력을 마크업
+4) kbd요소는 사용자의 입력을 나타내는 요소
+</code>
+	</pre>
+
+
+	<pre>
+<code>function nextPage(msg){
+	location.href = msg;	
+}</code>
+	</pre>
+
+
+	<p>
+		<var>Variable(변수 표현,이텔릭으로 표시됨) : </var>
+		위의 자바스크립트 소스중
+		<var>msg</var>
+		는 다음페이지 값을 갖는 변수이다.
+	</p>
+
+	<samp>Sample computer code text,</samp>
+	<samp>다음페이지명을 입력하시오:</samp>
+	<p>
+		<input type="button" value="nextPage"
+			onclick="nextPage('test16_nextPage.html')">
+	</p>
+
+	<p>Ctrl+s
+		<kbd>Keyboard text</kbd> : 파일 저장은 단축키
+		<kbd>
+			<kbd>Ctrl</kbd>
+			+
+			<kbd>s</kbd>
+		</kbd>
+		입니다.
+	</p>
+
+</body>
+</html>

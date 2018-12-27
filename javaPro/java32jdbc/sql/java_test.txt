@@ -1,0 +1,26 @@
+create table test (
+  num number not null 
+, name varchar2(20) not null 
+, age number not null 
+, constraint test_pk primary key (num) enable 
+);
+drop table test;
+
+create sequence seq_test_num;
+drop sequence seq_test_num;
+
+
+insert into test(num,name, age) values(seq_test_num.nextval,'aaa2', 22);
+
+update test set name='ddd', age=44 where num=4;
+
+delete from test where num=5;
+
+select * from test order by num desc;
+select age,name from test;
+
+select * from test where num=3;
+
+
+
+

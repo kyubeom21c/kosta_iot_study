@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	console.log("hello");
+	
+	//1.test()를 콜한 결과를 출력
+	function test(){
+		console.log("test()....");
+		return {name:"kim",tel:"010"};
+	}
+	
+	var obj = test();
+	console.log(obj.name);
+	console.log(obj.tel);
+	
+	//2.test2()를 에러없이 콜하기
+	function test2(fn){
+		console.log("test2()....");
+		
+		fn();
+	}
+	test2(function(){
+		console.log("fn()....");
+	});
+	
+	//3.test3()를 만들고 반환되는 함수를 콜하기
+	function test3(){
+		console.log("test3()....");
+		var su = 10;
+		return function(){
+			su++;
+			console.log("fn()...."+su);
+		};
+	}
+	var fn = test3();
+	fn();
+	fn();
+	fn();
+	fn();
+	
+	test3()();
+	test3()();
+	test3()();
+</script>
+</head>
+<body>
+	<h1>hello</h1>
+</body>
+</html>

@@ -1,0 +1,63 @@
+=========member table 积己, 昏力 孽府巩
+create table member 
+(
+  num number not null 
+, id varchar2(20) not null 
+, pw varchar2(20) not null 
+, name varchar2(20) not null 
+, tel varchar2(20) not null 
+, constraint member_pk primary key 
+  (
+  id 
+  )
+  enable 
+);
+
+drop table member;
+
+
+=============================
+========room table 积己, 昏力 孽府巩
+create table room 
+(
+  num number not null 
+, time number 
+, remain number
+, roomgame varchar2(20) 
+, constraint room_pk primary key 
+  (
+    num 
+  )
+  enable 
+);
+
+drop table room;
+
+
+=============================
+========game table 积己, 昏力 孽府巩
+create table game 
+(
+  num number not null 
+, name varchar2(20) 
+, gamelevel number 
+, peoplecount number 
+, popularity number
+, constraint game_pk primary key 
+  (
+    num 
+  )
+  enable 
+);
+
+drop table game;
+
+==================矫啮胶 积己,昏力 孽府巩
+create sequence seq_member_num;
+drop sequence seq_member_num;
+
+create sequence seq_room_num;
+drop sequence seq_room_num;
+
+create sequence seq_game_num;
+drop sequence seq_game_num;

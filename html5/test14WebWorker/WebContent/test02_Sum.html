@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebWorker</title>
+
+<style type="text/css">
+p,pre,span {
+	word-wrap: break-word;
+	font-size: 30pt;
+}
+</style>
+
+<script type="text/javascript">
+	var result1;
+	var result2;
+	var su;
+	var startTime;
+
+	onload = testInit;
+
+	function testInit() {
+
+		su = document.getElementById("su");
+		result1 = document.getElementById("result1");
+		result2 = document.getElementById("result2");
+
+	}
+
+	function cal(num) {
+		var hap = 0;
+		for (var i = 0; i < (num+1); i++) {
+			hap += i;
+		}
+		return hap;
+	}
+
+	var mTime = 0;
+	function sum() {
+		var nValue = parseInt(su.value );
+		startTime = new Date().getTime();
+		var rs = cal( nValue );
+
+		mTime = new Date().getTime() - startTime;
+
+		result1.innerHTML = rs;
+	}
+	
+	
+	var textResult = "";
+	function cal2(msg) {
+		textResult += msg;
+		return textResult;
+	}
+	function setText() {
+		var x = cal2("<br/>경과 시간:"+mTime);
+		result2.innerHTML = x;
+	}
+	
+	
+</script>
+
+</head>
+
+<body>
+	<h1>WebWorker</h1>
+
+	<p>
+		1 ~ <input type="number" id="su" value="100000000" /> 까지의 합 : 
+		<span id="result1"></span>
+	</p>
+	<p>
+		<button onclick="sum();">더하기</button>
+		<button onclick="setText();">눌러~~~!!</button><span id="result2"></span>
+	</p>
+
+</body>
+
+</html>

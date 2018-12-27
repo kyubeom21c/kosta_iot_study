@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript Tuning</title>
+</head>
+
+<body>
+	<h1>웹페이지 렌더링을 빠르게 해보자.</h1>
+
+	<xmp>
+	1.외부리소스를 참조하지 않는 http: 또는 https: 프로토콜 생략해주자 >>> 동적적용된다.
+	**bad**
+	<script src="http://www.test.com/header.js"></script>
+	**good**
+	<script src="//www.test.com/header.js"></script>
+	
+	2.CSS link Tag다음에 script Tag 사용해주자 >>> script 로딩전에 CSS먼저 로딩해주는 쎈쓰.
+	**bad**
+	<script src="http://www.test.com/header.js"></script>
+	<script src="http://www.test.com/menu.js"></script>
+	<script src="http://www.test.com/content.js"></script>
+	<script src="http://www.test.com/footer.js"></script>
+	<link rel="stylesheet" type="text/css" href="test1.css"></script>
+	<link rel="stylesheet" type="text/css" href="test2.css"></script>
+	**good**
+	<link rel="stylesheet" type="text/css" href="test1.css"></script>
+	<link rel="stylesheet" type="text/css" href="test2.css"></script>
+	<script src="http://www.test.com/header.js"></script>
+	<script src="http://www.test.com/menu.js"></script>
+	<script src="http://www.test.com/content.js"></script>
+	<script src="http://www.test.com/footer.js"></script>
+	
+	
+	3.http 프로토콜 요청 수를 줄여라. >>> js파일을 하나로 통합하자.
+	**bad**
+	<script src="http://www.test.com/header.js"></script>
+	<script src="http://www.test.com/menu.js"></script>
+	<script src="http://www.test.com/content.js"></script>
+	<script src="http://www.test.com/footer.js"></script>
+	**good**
+	<script src="http://www.test.com/test-all.js"></script>
+	
+	4.html5에서는 script type 생략해주는 것이 효율적이다.
+	**bad**
+	<script src="http://www.test.com/test-all.js" type="text/javascript"></script>
+	**good**
+	<script src="http://www.test.com/test-all.js"></script>
+	
+	5.보안이나 개인정보보호에 문제가되어 지지않는 부분에서는 Cache를 활용하자.
+	
+	6.개발 완료 후 배포파일(.js, .css)에 주석을 삭제해 주자.
+	
+	*** 이상입니다.
+	</xmp>
+
+</body>
+
+</html>

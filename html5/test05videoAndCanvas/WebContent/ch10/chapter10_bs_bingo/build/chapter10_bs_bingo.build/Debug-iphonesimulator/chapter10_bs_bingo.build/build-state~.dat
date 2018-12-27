@@ -1,0 +1,531 @@
+Tchapter10_bs_bingo
+v7
+r0
+t312999866.793270
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/Info.plist" chapter10_bs_bingo-Info.plist
+cPhaseScriptExecution "Copy PhoneGap Javascript" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh"
+cPhaseScriptExecution "Touch www folder" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh"
+cCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/www www
+cCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/VERSION /Users/jefffulton/Documents/PhoneGapLib/VERSION
+cCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/icon.png icon.png
+cCopyPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGap.plist" PhoneGap.plist
+cCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+cProcessPCH /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch.gch chapter10_bs_bingo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/main.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingoAppDelegate.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo" normal i386
+cGenerateDSYMFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app.dSYM" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo"
+cTouch "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC122E10000000000075FE0
+t1287725793
+s483296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
+c000000004CC122DB0000000000000A8C
+t1287725787
+s2700
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC129090000000000151F20
+t1287727369
+s1384224
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC128F80000000000000202
+t1287727352
+s514
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC6569800000000001AAD60
+t1288066712
+s1748320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004CC1282000000000000019AC
+t1287727136
+s6572
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/Contacts.h
+c000000004CC76BFF0000000000000ACE
+t1288137727
+s2766
+i<Foundation/Foundation.h>
+i<AddressBook/ABAddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/DebugConsole.h
+c000000004CC72FD60000000000000170
+t1288122326
+s368
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/JSON.h
+c000000004CC72FD600000000000008F9
+t1288122326
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/NSObject+SBJSON.h
+c000000004CC72FD60000000000000A01
+t1288122326
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/NSString+SBJSON.h
+c000000004CC72FD60000000000000916
+t1288122326
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJSON.h
+c000000004CC72FD60000000000000AED
+t1288122326
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJsonBase.h
+c000000004CC72FD60000000000000B82
+t1288122326
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJsonParser.h
+c000000004CC72FD60000000000000C0B
+t1288122326
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON/SBJsonWriter.h
+c000000004CC72FD60000000000001140
+t1288122326
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/Location.h
+c000000004CC76BFF00000000000005AB
+t1288137727
+s1451
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
+c000000004CC72FD600000000000002ED
+t1288122326
+s749
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
+c000000004CC76BFF00000000000002F6
+t1288137727
+s758
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/PhonegapDelegate.h
+c000000004CC76C65000000000000082E
+t1288137829
+s2094
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UINavigationController.h>
+i"JSON/JSON.h"
+i"Location.h"
+i"Sound.h"
+i"Contacts.h"
+i"DebugConsole.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/Classes/Sound.h
+c000000004CC76BFF0000000000000704
+t1288137727
+s1796
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i<AVFoundation/AVFoundation.h>
+i"PhoneGapCommand.h"
+
+N/Users/jefffulton/Documents/PhoneGapLib/VERSION
+c000000004CC76BFF0000000000000005
+t1288137727
+s5
+
+N/Users/jefffulton/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a
+c000000004CF7C8380000000000122010
+t1291307064
+s1187856
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.h
+c000000004CF721C4000000000000011D
+t1291264452
+s285
+i<UIKit/UIKit.h>
+i"PhoneGapDelegate.h"
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m
+c000000004CF721C40000000000000816
+t1291264452
+s2070
+i"chapter10_bs_bingoAppDelegate.h"
+i"PhoneGapViewController.h"
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Default.png
+c000000004C7D6EAD000000000000868F
+t1283288749
+s34447
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGap.plist
+c000000004CF721C4000000000000027E
+t1291264452
+s638
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGapBuildSettings.xcconfig
+c000000004CF721C4000000000000008A
+t1291264452
+s138
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app
+t1291307066
+s374
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app.dSYM
+t1291307066
+s102
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/Default.png
+t1291307064
+s34447
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/Info.plist
+t1291307064
+s925
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGap.plist
+t1291307065
+s255
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGapBuildSettings.xcconfig
+t1291307064
+s138
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PkgInfo
+t1291307064
+s8
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/VERSION
+t1291307064
+s5
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo
+t1291307066
+s289376
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/icon.png
+t1291307064
+s29646
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/www
+t1291307064
+s272
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingo.LinkFileList
+c000000004CF7C83800000000000001A3
+t1291307064
+s419
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingoAppDelegate.o
+t1291307066
+s49688
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/main.o
+t1291307066
+s6604
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh
+c000000004CF7C8380000000000000027
+t1291307064
+s39
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh
+c000000004CF7C83800000000000000BE
+t1291307064
+s190
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo_Prefix.pch
+c000000004CF721C400000000000000CD
+t1291264452
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/icon.png
+c000000004C7D6E5300000000000073CE
+t1283288659
+s29646
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m
+c000000004CF721C40000000000000189
+t1291264452
+s393
+i<UIKit/UIKit.h>
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www
+c000000004CF7C7E30000000000000132
+t1291306979
+s306
+
+N/var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch.gch
+t1291307065
+s15477968
+
+Nchapter10_bs_bingo-Info.plist
+c000000004CF73E120000000000000751
+t1291271698
+s1873
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312999864#312999864#0(0"0(0#1#0"8612484160#0"0#
+
+CCompileC build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingoAppDelegate.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312999866.243164
+e312999866.351887
+r1
+xCompileC
+xbuild/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingoAppDelegate.o
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@139"Compile /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m312999866#312999866#0(0"0(0#0#131"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m8610732352#2912"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-generated-files.hmap" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-own-target-headers.hmap" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-all-target-headers.hmap" -iquote "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-project-headers.hmap" "-F/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator" -iquote/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON -iquote/Users/jefffulton/Documents/PhoneGapLib/Classes "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/include" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources/i386" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources" -include /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch -c "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Classes/chapter10_bs_bingoAppDelegate.m" -o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingoAppDelegate.o"0#
+
+CCompileC build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/main.o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312999866.242062
+e312999866.294826
+r1
+xCompileC
+xbuild/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/main.o
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m312999866#312999866#0(0"0(0#0#98"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m8612092480#2854"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-generated-files.hmap" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-own-target-headers.hmap" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-all-target-headers.hmap" -iquote "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-project-headers.hmap" "-F/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator" -iquote/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON -iquote/Users/jefffulton/Documents/PhoneGapLib/Classes "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/include" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources/i386" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources" -include /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch -c "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/main.m" -o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/main.o"0#
+
+CCopyPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGap.plist" PhoneGap.plist
+s312999864.877047
+e312999865.090982
+r1
+xCopyPlistFile
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGap.plist
+xPhoneGap.plist
+lSLF07#2@19"Copy PhoneGap.plist312999864#312999865#0(0"0(0#0#106"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGap.plist8612420320#510"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+
+CCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/Default.png Default.png
+s312999864.876077
+e312999864.893456
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chapter10_bs_bingo.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png312999864#312999864#0(0"0(0#0#103"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Default.png8612614016#645"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Default.png" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+
+CCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+s312999864.893518
+e312999864.897417
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chapter10_bs_bingo.app/PhoneGapBuildSettings.xcconfig
+xPhoneGapBuildSettings.xcconfig
+lSLF07#2@35"Copy PhoneGapBuildSettings.xcconfig312999864#312999864#0(0"0(0#0#122"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGapBuildSettings.xcconfig8613493216#664"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGapBuildSettings.xcconfig" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+
+CCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/VERSION /Users/jefffulton/Documents/PhoneGapLib/VERSION
+s312999864.875591
+e312999864.884657
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chapter10_bs_bingo.app/VERSION
+x/Users/jefffulton/Documents/PhoneGapLib/VERSION
+lSLF07#2@52"Copy /Users/jefffulton/Documents/PhoneGapLib/VERSION312999864#312999864#0(0"0(0#0#47"/Users/jefffulton/Documents/PhoneGapLib/VERSION8611139872#587"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jefffulton/Documents/PhoneGapLib/VERSION "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+
+CCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/icon.png icon.png
+s312999864.876558
+e312999864.884528
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chapter10_bs_bingo.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png312999864#312999864#0(0"0(0#0#100"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/icon.png8598076544#642"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/icon.png" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+
+CCpResource build/Debug-iphonesimulator/chapter10_bs_bingo.app/www www
+s312999864.875040
+e312999864.883773
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chapter10_bs_bingo.app/www
+xwww
+lSLF07#2@8"Copy www312999864#312999864#0(0"0(0#0#95"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www8612901184#637"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+
+CGenerateDSYMFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app.dSYM" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo"
+s312999866.667607
+e312999866.790947
+r1
+xGenerateDSYMFile
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app.dSYM
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo
+lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/chapter10_bs_bingo.app.dSYM build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo312999866#312999866#0(0"0(0#0#161"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo8614454592#581"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo" -o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app.dSYM"0#
+
+CLd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo" normal i386
+s312999866.351976
+e312999866.667508
+r1
+xLd
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo
+xnormal
+xi386
+lSLF07#2@166"Link /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo312999866#312999866#0(0"0(0#0#0"8615723168#1579"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator" "-F/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator" -filelist "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingo.LinkFileList" -mmacosx-version-min=10.6 -all_load -Obj-C -Xlinker -objc_abi_version -Xlinker 2 /Users/jefffulton/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/chapter10_bs_bingo"0#
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh"
+s312999864.832507
+e312999864.863140
+r1
+xPhaseScriptExecution
+xCopy PhoneGap Javascript
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh
+omake: Nothing to be done for `all'.
+ocp /Users/jefffulton/Documents/PhoneGapLib/javascripts/phonegap.js /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www/phonegap.js
+lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'312999864#312999864#0(211"make: Nothing to be done for `all'.cp /Users/jefffulton/Documents/PhoneGapLib/javascripts/phonegap.js /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www/phonegap.js2(13@36"make: Nothing to be done for `all'.312999864#0#36#0(1@0"0(13@175"cp /Users/jefffulton/Documents/PhoneGapLib/javascripts/phonegap.js /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www/phonegap.js312999864#36#175#0(1@0"0(0#0#0"8614507168#20835"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jefffulton    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv BUILD_ROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH chapter10_bs_bingo.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH chapter10_bs_bingo.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/chapter10_bs_bingo.dst    setenv DWARF_DSYM_FILE_NAME chapter10_bs_bingo.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH chapter10_bs_bingo.app/Executables    setenv EXECUTABLE_FOLDER_PATH chapter10_bs_bingo.app    setenv EXECUTABLE_NAME chapter10_bs_bingo    setenv EXECUTABLE_PATH chapter10_bs_bingo.app/chapter10_bs_bingo    setenv FILE_LIST "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH chapter10_bs_bingo.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME chapter10_bs_bingo.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER chapter10_bs_bingo_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE chapter10_bs_bingo-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH chapter10_bs_bingo.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH chapter10_bs_bingo.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/chapter10_bs_bingo.dst/Users/jefffulton/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jefffulton    setenv INSTALL_PATH /Users/jefffulton/Applications    setenv INSTALL_ROOT /tmp/chapter10_bs_bingo.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH chapter10_bs_bingo.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingo.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH chapter10_bs_bingo.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal"    setenv OBJROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH chapter10_bs_bingo.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/jefffulton/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/PkgInfo"    setenv PKGINFO_PATH chapter10_bs_bingo.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 40200    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH chapter10_bs_bingo.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH chapter10_bs_bingo.app/PrivateHeaders    setenv PRODUCT_NAME chapter10_bs_bingo    setenv PRODUCT_SETTINGS_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT chapter10_bs_bingo    setenv PROJECT_DERIVED_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/DerivedSources"    setenv PROJECT_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PROJECT_FILE_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo.xcodeproj"    setenv PROJECT_NAME chapter10_bs_bingo    setenv PROJECT_TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build"    setenv PUBLIC_HEADERS_FOLDER_PATH chapter10_bs_bingo.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH chapter10_bs_bingo.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_NAME iphonesimulator4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH chapter10_bs_bingo.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH chapter10_bs_bingo.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv SRCROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/SymbolRepositories"    setenv SYMROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME chapter10_bs_bingo    setenv TARGET_BUILD_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv TARGET_NAME chapter10_bs_bingo    setenv TARGET_TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_FILES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_ROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH chapter10_bs_bingo.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER jefffulton    setenv USER_APPS_DIR /Users/jefffulton/Applications    setenv USER_HEADER_SEARCH_PATHS "/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON /Users/jefffulton/Documents/PhoneGapLib/Classes"    setenv USER_LIBRARY_DIR /Users/jefffulton/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH chapter10_bs_bingo.app/version.plist    setenv VERSION_INFO_BUILDER jefffulton    setenv VERSION_INFO_FILE chapter10_bs_bingo_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:chapter10_bs_bingo  PROJECT:chapter10_bs_bingo-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME chapter10_bs_bingo.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos4.2    setenv i386 YES    /bin/sh -c "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh\""0#
+
+CPhaseScriptExecution "Touch www folder" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh"
+s312999864.863213
+e312999864.874964
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh
+lSLF07#2@42"Run custom shell script 'Touch www folder'312999864#312999864#0(0"0(0#0#0"8614289152#20835"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jefffulton    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv BUILD_ROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH chapter10_bs_bingo.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH chapter10_bs_bingo.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/chapter10_bs_bingo.dst    setenv DWARF_DSYM_FILE_NAME chapter10_bs_bingo.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH chapter10_bs_bingo.app/Executables    setenv EXECUTABLE_FOLDER_PATH chapter10_bs_bingo.app    setenv EXECUTABLE_NAME chapter10_bs_bingo    setenv EXECUTABLE_PATH chapter10_bs_bingo.app/chapter10_bs_bingo    setenv FILE_LIST "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH chapter10_bs_bingo.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME chapter10_bs_bingo.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER chapter10_bs_bingo_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE chapter10_bs_bingo-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH chapter10_bs_bingo.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH chapter10_bs_bingo.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/chapter10_bs_bingo.dst/Users/jefffulton/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jefffulton    setenv INSTALL_PATH /Users/jefffulton/Applications    setenv INSTALL_ROOT /tmp/chapter10_bs_bingo.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH chapter10_bs_bingo.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal/i386/chapter10_bs_bingo.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH chapter10_bs_bingo.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Objects-normal"    setenv OBJROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH chapter10_bs_bingo.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/jefffulton/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/PkgInfo"    setenv PKGINFO_PATH chapter10_bs_bingo.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 40200    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH chapter10_bs_bingo.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH chapter10_bs_bingo.app/PrivateHeaders    setenv PRODUCT_NAME chapter10_bs_bingo    setenv PRODUCT_SETTINGS_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT chapter10_bs_bingo    setenv PROJECT_DERIVED_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/DerivedSources"    setenv PROJECT_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PROJECT_FILE_PATH "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo.xcodeproj"    setenv PROJECT_NAME chapter10_bs_bingo    setenv PROJECT_TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build"    setenv PUBLIC_HEADERS_FOLDER_PATH chapter10_bs_bingo.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH chapter10_bs_bingo.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_NAME iphonesimulator4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH chapter10_bs_bingo.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH chapter10_bs_bingo.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv SRCROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/SymbolRepositories"    setenv SYMROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME chapter10_bs_bingo    setenv TARGET_BUILD_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator"    setenv TARGET_NAME chapter10_bs_bingo    setenv TARGET_TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_FILES_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_FILE_DIR "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build"    setenv TEMP_ROOT "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH chapter10_bs_bingo.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER jefffulton    setenv USER_APPS_DIR /Users/jefffulton/Applications    setenv USER_HEADER_SEARCH_PATHS "/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON /Users/jefffulton/Documents/PhoneGapLib/Classes"    setenv USER_LIBRARY_DIR /Users/jefffulton/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH chapter10_bs_bingo.app/version.plist    setenv VERSION_INFO_BUILDER jefffulton    setenv VERSION_INFO_FILE chapter10_bs_bingo_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:chapter10_bs_bingo  PROJECT:chapter10_bs_bingo-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME chapter10_bs_bingo.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos4.2    setenv i386 YES    /bin/sh -c "\"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh\""0#
+
+CProcessInfoPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/Info.plist" chapter10_bs_bingo-Info.plist
+s312999864.829349
+e312999864.832440
+r1
+xProcessInfoPlistFile
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/Info.plist
+xchapter10_bs_bingo-Info.plist
+lSLF07#2@37"Process chapter10_bs_bingo-Info.plist312999864#312999864#0(0"0(0#0#121"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo-Info.plist8614243744#677"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility chapter10_bs_bingo-Info.plist -genpkginfo "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app/Info.plist"0#
+
+CProcessPCH /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch.gch chapter10_bs_bingo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312999865.091074
+e312999866.240471
+r1
+xProcessPCH
+x/var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch.gch
+xchapter10_bs_bingo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile chapter10_bs_bingo_Prefix.pch312999865#312999866#0(0"0(0#0#121"/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo_Prefix.pch8612048256#2680"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-generated-files.hmap" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-own-target-headers.hmap" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-all-target-headers.hmap" -iquote "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/chapter10_bs_bingo-project-headers.hmap" "-F/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator" -iquote/Users/jefffulton/Documents/PhoneGapLib/Classes/JSON -iquote/Users/jefffulton/Documents/PhoneGapLib/Classes "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/include" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources/i386" "-I/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Debug-iphonesimulator/chapter10_bs_bingo.build/DerivedSources" -c "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/chapter10_bs_bingo_Prefix.pch" -o /var/folders/rU/rU2SuveFG1aR7FxQj9b9fE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chapter10_bs_bingo_Prefix-hbnwhlxktaidygbjzotosmnpzyev/chapter10_bs_bingo_Prefix.pch.gch0#
+
+CTouch "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"
+s312999866.791024
+e312999866.793241
+r1
+xTouch
+x/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app
+lSLF07#2@148"Touch /Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app312999866#312999866#0(0"0(0#0#0"8613871264#399"    cd "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Debug-iphonesimulator/chapter10_bs_bingo.app"0#
+

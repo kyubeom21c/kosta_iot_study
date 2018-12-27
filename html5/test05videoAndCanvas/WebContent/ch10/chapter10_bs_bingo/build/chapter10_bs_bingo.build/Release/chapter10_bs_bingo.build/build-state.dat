@@ -1,0 +1,115 @@
+Tchapter10_bs_bingo
+v7
+r1
+
+N/Users/jefffulton/Documents/PhoneGapLib/VERSION
+c000000004CC76BFF0000000000000005
+t1288137727
+s5
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/Default.png
+c000000004CF721C40000000000000BAE
+t1291264452
+s2990
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGap.plist
+c000000004CF721C4000000000000027E
+t1291264452
+s638
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/PhoneGapBuildSettings.xcconfig
+c000000004CF721C4000000000000008A
+t1291264452
+s138
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Info.plist
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/PhoneGap.plist
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/PhoneGapBuildSettings.xcconfig
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/VERSION
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/www
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Release/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Release/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/icon.png
+c000000004CF721C40000000000000C36
+t1291264452
+s3126
+
+N/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/www
+c000000004CF721C40000000000000066
+t1291264452
+s102
+
+Nchapter10_bs_bingo-Info.plist
+c000000004CF721C400000000000005C2
+t1291264452
+s1474
+
+CCopyPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Resources/PhoneGap.plist" PhoneGap.plist
+r0
+
+CCpResource build/Release/chapter10_bs_bingo.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Release/chapter10_bs_bingo.app/Contents/Resources/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+r0
+
+CCpResource build/Release/chapter10_bs_bingo.app/Contents/Resources/VERSION /Users/jefffulton/Documents/PhoneGapLib/VERSION
+r0
+
+CCpResource build/Release/chapter10_bs_bingo.app/Contents/Resources/icon.png icon.png
+r0
+
+CCpResource build/Release/chapter10_bs_bingo.app/Contents/Resources/www www
+r0
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Release/chapter10_bs_bingo.build/Script-30E9A9A110B758320022D3BA.sh"
+r0
+
+CPhaseScriptExecution "Touch www folder" "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/chapter10_bs_bingo.build/Release/chapter10_bs_bingo.build/Script-304B58A110DAC018002A0835.sh"
+r0
+
+CProcessInfoPlistFile "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app/Contents/Info.plist" chapter10_bs_bingo-Info.plist
+r0
+
+CTouch "/Users/jefffulton/Documents/my programming/html5/Oreilly Book/Chapter 10/chapter10_bs_bingo/build/Release/chapter10_bs_bingo.app"
+r0
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+
+/* not다음에 괄호랑 반드시 붙여쓸것  짝수를 부정했으니 홀수행을 지정*/
+ li:not(:nth-child(even) ) a {
+	color: red;
+} 
+
+/* 링크를 선택하면 타겟이 설정된경우 배경색 변경 */
+ li:target {
+	background:#00ffff;
+	font-size:30pt;
+} 
+
+
+input:disabled {
+	background: green;
+}
+
+input:enabled {
+	background: yellow;
+}
+
+</style>
+</head>
+<body>
+	<ul>
+		<li id="top"><a href="#top">top</a>
+		</li>
+		<li id="middle"><a href="#middle">middle</a>
+		</li>
+		<li id="bottom"><a href="#bottom">bottom</a>
+		</li>
+	</ul>
+
+	
+	<input type="text" disabled="disabled" />
+	<input type="text" />
+
+
+
+</body>
+</html>

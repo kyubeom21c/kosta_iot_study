@@ -1,0 +1,17 @@
+table name : score
+column : num, name, kor,eng,math
+
+sequence name : seq_score_num
+==============================
+
+table name : member
+column : num, id, pw,name,tel
+
+sequence name : seq_member_num
+
+==============================
+table name : board
+column : num, title, content, writer, wdate
+
+sequence name : seq_board_num
+insert into table1(column1) values('aa');

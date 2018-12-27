@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		console.log("ready....");
+		
+		$("*").css({background:"red",color:"white"});
+		
+		var h1 = $("h1");
+		console.log(h1);
+// 		h1.text("<p>aaaa</p>");
+		h1.html("<p>aaaa</p>");
+// 		h1.click(function(){
+// 			console.log("h1 click....");
+// 			$(this).hide();
+// 		});
+// 		h1.bind("click",function(){
+// 			console.log("h1 click....");
+// 			$(this).hide();
+// 		});
+		h1.on("click",function(){
+			console.log("h1 click....");
+			$(this).hide();
+		});
+		
+		var name = $("#name");
+		console.log(name.text());
+		name.on("click",function(){
+			$(this).css({"font-size":"40px"});
+		});
+		
+		var a1 = $(".a1");
+		a1.text("javascript");
+		a1.css({color:"#666"});
+// 		a1.on("mouseenter",function(){
+// 			$(this).css({"font-size":"40px"});
+// 		}).on("mouseleave",function(){
+// 			$(this).css({"font-size":"20px"});
+// 		});
+		
+		a1.on("mouseover",function(){
+			$(this).css({"font-size":"40px"});
+		}).on("mouseout",function(){
+			$(this).css({"font-size":"20px"});
+		});
+		
+		$("a").on("click",function(){
+			console.log("a click...");
+			return false;
+		});
+	});
+</script>
+</head>
+<body>
+	<h1>hello</h1>
+	<h1>hello</h1>
+	<h1>hello</h1>
+	
+	<div id="name">yangssem</div>
+	
+	<div class="a1">jquery1</div>
+	<p class="a1">jquery2</p>
+	<span class="a1">jquery3</span>
+	
+	<p><a href="http://naver.com">naver</a><p>
+</body>
+</html>
